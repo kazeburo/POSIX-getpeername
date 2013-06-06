@@ -22,7 +22,7 @@ test_tcp(
     server => sub {
         my $port = shift;
         my $listen = IO::Socket::INET->new(
-            ReusePort => 1,
+            ReuseAddr => 1,
             Listen    => 5,
             LocalHost => 'localhost',
             LocalPort => $port,
