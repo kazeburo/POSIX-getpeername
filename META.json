@@ -47,10 +47,22 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0.98",
+            "Test::TCP" : "1.29"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kazeburo/POSIX-getpeername/issues"
+      },
+      "homepage" : "https://github.com/kazeburo/POSIX-getpeername",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/kazeburo/POSIX-getpeername.git",
+         "web" : "https://github.com/kazeburo/POSIX-getpeername"
+      }
+   },
    "version" : "0.01"
 }
